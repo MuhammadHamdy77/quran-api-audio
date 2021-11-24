@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="application-name" content="Muhammed Hamdi Front End Angular">
+    <meta name="author" content="Muhammed Hamdi Front End Angular">
+    <meta name="Keywords" content="front end, html , css,jquery,bootstrap,angular,typescript,api fetch, javascript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Social Media meta tag need customer customization -->
+    <meta content='MuhammadHamdiZSC/' property='fb:app_id' />
+    <meta content='MuhammadHamdiZSC/' property='fb:admins' />
+    <meta content='MuhammadHamdiZSC/' name='twitter:site' />
+    <meta content='MuhammadHamdiZSC/ ' name='twitter:creator' />
+
+    <title>TEST</title>
+    <!-- Fonts Links Are in Description -->
+    <!-- thuluth decorated Font-->
+    <link rel="stylesheet" type="text/css" href="https://www.fontstatic.com/f=thuluth-decorated" />
+    <!-- Cairo Font-->
+    <link rel="stylesheet" type="text/css" href="https://www.fontstatic.com/f=cairo-bold" />
+    <!-- Font AWesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <!-- Main Style -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="navside">
+    <span>قائمة السور</span>
+    <i class="fas fa-align-justify"></i>
+</div>
+<div class="home-bg-video">
+    <video  autoplay  loop id="bgvid" >
+        
+        <source src="images/04.mp4" type="video/mp4">
+    </video>
+</div>
+<div class="container">
+    <div class="content-quran">
+        <div class="ayat-quran">
+            <p class="quran-text"> </p>
+        </div>
+    </div>
+
+
+    <div class="surahs">
+
+        <div class="click-surah">
+            إضغط للاستماع الى السورة
+            <div class="icon-close-open" onclick="closeMenu()">
+                <i class="fa fa-times"></i>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+
+<div class="player">
+    <audio src="" class="quranPlyer" controls autoplay></audio>
+    <div class="buttons">
+        <div class="icon prev"><i class="fas fa-angle-double-right"></i></div>
+        <div class="icon playaudio"><i class="fa fa-play-circle"></i></div>
+        <div class="icon next"><i class="fas fa-angle-double-left"></i></div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
